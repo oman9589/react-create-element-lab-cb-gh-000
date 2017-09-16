@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const meInReact =
 React.createElement('div', {},
-    React.createElement('h1', {}, 'My favorite ice cream flavors'),
+    React.createElement('h1', {class: 'me'}, 'My favorite ice cream flavors'),
     React.createElement('ul', {},
       [
         React.createElement('li', {}, 'Chocolate'),
