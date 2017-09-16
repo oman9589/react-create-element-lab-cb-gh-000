@@ -5,7 +5,7 @@ const meInReact =
 React.createElement('div', {},
     React.createElement('h1', {className: 'me'}, 'An Awesome Person'),
     React.createElement('p', {}, 'Who is learning React'),
-    React.createElement('ul', {},
+    React.createElement('ul', {className: 'my-interests'},
       [
         React.createElement('li', {}, 'JavaScript'),
         React.createElement('li', {}, 'React'),
