@@ -1,9 +1,8 @@
-import React from 'react';
+lsimport React from 'react';
 import ReactDOM from 'react-dom';
 
 const meInReact =
-React.createElement('div', {},
-  React.createElement('h1', {}, 'test'));
+  React.createElement('h1', {}, 'test');
 
 ReactDOM.render(
   meInReact,
