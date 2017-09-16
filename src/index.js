@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const meInReact =
 React.createElement('div', {},
-    React.createElement('h1', {class: 'me'}, 'An Awesome Person'),
+    React.createElement('h1', {className: 'me'}, 'An Awesome Person'),
     React.createElement('p', {}, 'Who is learning React'),
     React.createElement('ul', {},
       [
