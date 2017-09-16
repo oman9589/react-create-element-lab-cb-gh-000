@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const meInReact =
-React.createElement('div', {className='me'},
+React.createElement('div', {className: 'me'},
     React.createElement('h1', {className: 'me'}, 'An Awesome Person'),
     React.createElement('p', {}, 'Who is learning React'),
     React.createElement('ul', {className: 'my-interests'},
