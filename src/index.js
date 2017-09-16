@@ -4,11 +4,13 @@ import ReactDOM from 'react-dom';
 const meInReact =
 React.createElement('div', {},
     React.createElement('h1', {class: 'me'}, 'An Awesome Person'),
+    React.createElement('p', {}, 'Who is learning React'),
     React.createElement('ul', {},
       [
-        React.createElement('li', {}, 'Chocolate'),
-        React.createElement('li', {}, 'Vanilla'),
-        React.createElement('li', {}, 'Banana')
+        React.createElement('li', {}, 'JavaScript'),
+        React.createElement('li', {}, 'React'),
+        React.createElement('li', {}, 'Movies'),
+        React.createElement('li', {}, 'Ice Cream')
       ]
     )
   );
